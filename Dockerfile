@@ -2,7 +2,7 @@
 # DESCRIPTION:    Image to build Atom and create a .rpm file
 
 # Base docker image
-FROM nodesource/fedora21:4.2.6
+FROM node:9
 
 # Install dependencies
 RUN yum install -y \
